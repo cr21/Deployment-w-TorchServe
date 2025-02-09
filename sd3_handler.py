@@ -12,6 +12,7 @@ from ts.torch_handler.base_handler import BaseHandler
 logger = logging.getLogger(__name__)
 logger.info("Loading sd3_handler...")
 
+
 class SD3Handler(BaseHandler, ABC):
     def __init__(self):
         self.initialized = False
